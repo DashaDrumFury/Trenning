@@ -17,8 +17,12 @@ public class ifelse {
 
         if (b > 0) {
             System.out.println("b > 0");
-        } else {
+        }
+
+        if (b <= 0) {
             System.out.println("b <= 0");
+        } else {
+            System.out.println("b > 0");
         }
     }
 }
